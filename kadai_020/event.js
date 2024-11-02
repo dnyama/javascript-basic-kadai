@@ -1,7 +1,6 @@
 const kadaiBtn = document.getElementById('btn');
+const kadaiText = document.getElementById('text');
 
 kadaiBtn.addEventListener('click',() => {
-  document.getElementById("text").textContent = 'ボタンをクリックしました';
+  kadaiText.textContent = 'ボタンをクリックしました';
 });
-
-
